@@ -1,0 +1,39 @@
+# Coursework dataset — provided by the university, not redistributable
+CW_Dataset/
+
+# Large model artefacts (>100 MB exceeds GitHub's hard limit)
+Models/hog_svm.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE / editors
+.vscode/
+.idea/
+*.user
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Colab / Drive sync artefacts
+*.colab
+**/MyDrive/
+**/drive/MyDrive/

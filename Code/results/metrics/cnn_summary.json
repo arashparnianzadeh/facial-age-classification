@@ -1,0 +1,159 @@
+{
+  "model_name": "Simple CNN",
+  "image_size": [
+    96,
+    96
+  ],
+  "device": "cpu",
+  "train_samples": 10640,
+  "validation_samples": 2660,
+  "test_samples": 850,
+  "num_epochs": 10,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "best_model_path": "C:\\Users\\arash\\Documents\\Computer Vision Module\\Arash CV Coursework\\Models\\simple_cnn_best.pt",
+  "model_size_mb": 18.365117073059082,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9798519882940708,
+      "train_accuracy": 0.580639097744361,
+      "val_loss": 0.7714391048689534,
+      "val_accuracy": 0.6857142857142857
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.719411842088054,
+      "train_accuracy": 0.6986842105263158,
+      "val_loss": 0.6412704148686919,
+      "val_accuracy": 0.7458646616541353
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6287678172713832,
+      "train_accuracy": 0.7393796992481203,
+      "val_loss": 0.6161135053276119,
+      "val_accuracy": 0.7507518796992482
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5582032322211373,
+      "train_accuracy": 0.775375939849624,
+      "val_loss": 0.5718387562529486,
+      "val_accuracy": 0.7642857142857142
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.505283580866075,
+      "train_accuracy": 0.7928571428571428,
+      "val_loss": 0.5692432199205671,
+      "val_accuracy": 0.7597744360902255
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4651836898990144,
+      "train_accuracy": 0.8079887218045113,
+      "val_loss": 0.5814970366936877,
+      "val_accuracy": 0.7571428571428571
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4188442258010233,
+      "train_accuracy": 0.8296992481203007,
+      "val_loss": 0.5820959641521138,
+      "val_accuracy": 0.7766917293233083
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.37098576807437983,
+      "train_accuracy": 0.8491541353383458,
+      "val_loss": 0.648731425561403,
+      "val_accuracy": 0.762406015037594
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.3276194599113966,
+      "train_accuracy": 0.8656015037593985,
+      "val_loss": 0.5690744084523136,
+      "val_accuracy": 0.7774436090225564
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.27311236737366007,
+      "train_accuracy": 0.8895676691729323,
+      "val_loss": 0.6635380312912447,
+      "val_accuracy": 0.7669172932330827
+    }
+  ],
+  "validation_best_accuracy": 0.7774436090225564,
+  "test": {
+    "accuracy": 0.7988235294117647,
+    "avg_inference_ms_per_image": 5.098110235241407,
+    "confusion_matrix": [
+      [
+        141,
+        9,
+        0,
+        0
+      ],
+      [
+        12,
+        299,
+        31,
+        8
+      ],
+      [
+        1,
+        31,
+        133,
+        35
+      ],
+      [
+        1,
+        5,
+        38,
+        106
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9096774193548387,
+        "recall": 0.94,
+        "f1-score": 0.9245901639344263,
+        "support": 150.0
+      },
+      "1": {
+        "precision": 0.8691860465116279,
+        "recall": 0.8542857142857143,
+        "f1-score": 0.861671469740634,
+        "support": 350.0
+      },
+      "2": {
+        "precision": 0.6584158415841584,
+        "recall": 0.665,
+        "f1-score": 0.6616915422885572,
+        "support": 200.0
+      },
+      "3": {
+        "precision": 0.7114093959731543,
+        "recall": 0.7066666666666667,
+        "f1-score": 0.7090301003344481,
+        "support": 150.0
+      },
+      "accuracy": 0.7988235294117647,
+      "macro avg": {
+        "precision": 0.7871721758559449,
+        "recall": 0.7914880952380953,
+        "f1-score": 0.7892458190745164,
+        "support": 850.0
+      },
+      "weighted avg": {
+        "precision": 0.7988956551707064,
+        "recall": 0.7988235294117647,
+        "f1-score": 0.7987839558908996,
+        "support": 850.0
+      }
+    }
+  },
+  "qualitative_figure": "C:\\Users\\arash\\Documents\\Computer Vision Module\\Arash CV Coursework\\Code\\results\\figures\\cnn_test_examples.png"
+}

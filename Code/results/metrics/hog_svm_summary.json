@@ -1,0 +1,151 @@
+{
+  "model_name": "HOG + Linear SVM",
+  "image_size": [
+    96,
+    96
+  ],
+  "train_samples": 10640,
+  "validation_samples": 2660,
+  "test_samples": 850,
+  "model_path": "C:\\Users\\arash\\Documents\\Computer Vision Module\\Arash CV Coursework\\Models\\hog_svm.joblib",
+  "model_size_mb": 188.68438625335693,
+  "validation": {
+    "accuracy": 0.6988721804511279,
+    "avg_inference_ms_per_image": 17.361601428575185,
+    "confusion_matrix": [
+      [
+        412,
+        57,
+        3,
+        8
+      ],
+      [
+        59,
+        882,
+        135,
+        24
+      ],
+      [
+        8,
+        200,
+        270,
+        122
+      ],
+      [
+        6,
+        38,
+        141,
+        295
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8494845360824742,
+        "recall": 0.8583333333333333,
+        "f1-score": 0.8538860103626943,
+        "support": 480.0
+      },
+      "1": {
+        "precision": 0.7493627867459643,
+        "recall": 0.8018181818181818,
+        "f1-score": 0.7747035573122529,
+        "support": 1100.0
+      },
+      "2": {
+        "precision": 0.4918032786885246,
+        "recall": 0.45,
+        "f1-score": 0.4699738903394256,
+        "support": 600.0
+      },
+      "3": {
+        "precision": 0.6570155902004454,
+        "recall": 0.6145833333333334,
+        "f1-score": 0.635091496232508,
+        "support": 480.0
+      },
+      "accuracy": 0.6988721804511279,
+      "macro avg": {
+        "precision": 0.6869165479293521,
+        "recall": 0.6811837121212122,
+        "f1-score": 0.6834137385617203,
+        "support": 2660.0
+      },
+      "weighted avg": {
+        "precision": 0.6926695839283747,
+        "recall": 0.6988721804511279,
+        "f1-score": 0.6950629512830191,
+        "support": 2660.0
+      }
+    }
+  },
+  "test": {
+    "accuracy": 0.6952941176470588,
+    "avg_inference_ms_per_image": 17.86759670577286,
+    "confusion_matrix": [
+      [
+        133,
+        14,
+        2,
+        1
+      ],
+      [
+        19,
+        282,
+        41,
+        8
+      ],
+      [
+        4,
+        60,
+        93,
+        43
+      ],
+      [
+        2,
+        12,
+        53,
+        83
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8417721518987342,
+        "recall": 0.8866666666666667,
+        "f1-score": 0.8636363636363636,
+        "support": 150.0
+      },
+      "1": {
+        "precision": 0.7663043478260869,
+        "recall": 0.8057142857142857,
+        "f1-score": 0.7855153203342619,
+        "support": 350.0
+      },
+      "2": {
+        "precision": 0.49206349206349204,
+        "recall": 0.465,
+        "f1-score": 0.4781491002570694,
+        "support": 200.0
+      },
+      "3": {
+        "precision": 0.6148148148148148,
+        "recall": 0.5533333333333333,
+        "f1-score": 0.5824561403508772,
+        "support": 150.0
+      },
+      "accuracy": 0.6952941176470588,
+      "macro avg": {
+        "precision": 0.678738701650782,
+        "recall": 0.6776785714285714,
+        "f1-score": 0.677439231144643,
+        "support": 850.0
+      },
+      "weighted avg": {
+        "precision": 0.6883614884221898,
+        "recall": 0.6952941176470588,
+        "f1-score": 0.6911459503135197,
+        "support": 850.0
+      }
+    }
+  },
+  "qualitative_figure": "C:\\Users\\arash\\Documents\\Computer Vision Module\\Arash CV Coursework\\Code\\results\\figures\\hog_svm_test_examples.png"
+}
